@@ -1,0 +1,12 @@
+# Initializing Node.js projects #
+
+The best way to start a project in Node is to create a package.jason file. 
+First let's create a folder for this project. Npm is distributed with node and it helps with module installation, among other things Right now we're going to use npm to help us generate a package.json file.
+
+To do that type npm and it. After you press enter, it'll step you through the creation of the file. The first thing it prompts you for is the name, and if you don't specify a name, it'll just use the name of the folder where the package.json file is going to be. In this case it's airline, and that's fine with me. So I'm going to hit return. Next it's going to ask you for a version. In this case, I'm just going to accept the default because I don't care. Next, it's going to ask for description of the project. Let's type in a small description.
+
+After the description, it's going to prompt for an entry point. Every project that you create in Node is going to have an entry point. And in this case I'm just going to accept the default of index.js. Now it's going to prompt for a test command. Later on, we can set this up to automatically run unit tests. But at the moment, we're just going to leave this blank. After test, it allows us to supply the path to a git repository. This is useful if you're distributing your project to someone else, but in this case we're just building it for ourself.
+
+So leave git repository blank. Next there are keywords. Again, this is if you're distributing the project elsewhere, so leave it blank. Now it's prompting for an author. In this case, I'm going to type in my name, and then I'm going to supply my email address in angle brackets. After author, it's going to prompt for a license. You can add any license you like here. And, in this case, I'm just going to accept the default. After answering all of the questions, it's going to show you a preview of the package.json file. If everything is okay, you can just type return.
+
+Now, when we list the contents of the folder, there's a package.json file. I'm going to open it up in SublimeText. The package.json file identifies a project, who authored it, and which file is the entry point. This file will also keep track of the modules this project depends on. In the next video, we'll use this package.json file to keep track of the community-provided modules as we're installing them.

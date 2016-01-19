@@ -1,0 +1,22 @@
+{
+  "name": "myprojectname",
+  "version": "1.0.0",
+  "description": "This is the description of the project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "such",
+    "demo",
+    "and",
+    "other",
+    "metatags",
+    "keywords",
+    "to",
+    "help",
+    "search"
+  ],
+  "author": "Fadi Nicolas Zahhar",
+  "license": "ISC"
+}
